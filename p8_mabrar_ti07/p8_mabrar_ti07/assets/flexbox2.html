@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementasi flexbox</title>
+    <link rel="stylesheet" href="css/flexbox2.css">
+</head>
+<style>
+    body{
+        background-color: rgb(211, 25, 171);
+        
+    }
+    header{
+        background-color: rgb(255, 17, 0);
+        width: 99%;
+        height: 107px;
+        margin: 10px;
+        float: left;
+        
+    }
+    aside{
+        background-color: blue;
+        height: 440px;
+        width: 233px;
+        margin: 10px;
+        float: left;
+    }
+   
+ 
+    article {
+    float:inline-start;
+    justify-content: center;
+    background-color: rgb(248, 224, 7);
+    display: flex;
+    width: 89%;
+    height: 450px;
+    margin: 10px;
+   }
+  
+   footer{
+    background-color: lightgreen;
+    width: 99%;
+    height: 107px;
+    margin: 0.8em;
+    float: none;
+  }
+  
+ div img{
+    background-color: beige;
+    width: 300px;
+    height: 390px;
+    margin: 30px;
+ }
+  
+</style>
+  <body>
+    <header>1</header>
+    <aside>1</aside>
+    <article>
+
+        <div class="img">
+            <img src="images/gambar_1.jpg">
+            <img src="images/gambar_2.jpg">
+            <img src="images/gambar_3.jpg">
+        </div>
+    </article>
+    <footer>2</footer>
+    
+   </body>
+</html>
